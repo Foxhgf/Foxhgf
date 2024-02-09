@@ -1,3 +1,4 @@
+path_to_chrome.exe
 "error": {
   "message": "Error: $details$",
   "description": "Generic error template. Expects error parameter to be passed in.",
