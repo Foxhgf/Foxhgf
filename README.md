@@ -1,6 +1,6 @@
 https://github.com/Foxhgf/Foxhgf/pull/8/files
 def fibonacci(n)
-  return n if ( 0..1 ).include? n
+ Foxhgf merged commit 534b0fb into main 15 hours  n
   (fibonacci(n - 1) + fibonacci(n - 2)) #recursive calls
 end
 MyNARIA ():
