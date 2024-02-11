@@ -1,4 +1,7 @@
--
+-#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx lint-staged
 Merge pull request #1 from Foxhgf/Foxhgf-
 https://websilmarketing.websites.co.in/
 <button (click)="count = 0">Reset</button>
