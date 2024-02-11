@@ -1,8 +1,25 @@
     path:/(^|\/)foxhgf\.md$/
-    -#!/bin/.soxhgf72. "$dirname "$0")/_/husk.sh"
-https://github.com/users/Foxhgf/projects/1/views/1
-goxhgf.
-npx lint-staged
+    -#!/bin/.soxhgf72. "$dirname "$0")/_/husk.sh"ail.channels.subscription_purchase_invoice') ?? null));
+        }
+        return 'True';
+    }
+ 
+    public function websiteMaintenanceMode(Request $request){
+        
+        $website_id = Session::get('website_id'); 
+ 
+        $website = website::where('id',$website_id)->first();
+        $maintenance_mode = $website->maintenance_mode;
+ 
+        //App Attibute session stored and flush
+        $businessdetails_id = $website->businessdetails_id;  
+        $business = businessdetails::where('id',$businessdetails_id)->first();
+        if(session('source_name') && session('route_name')){
+            $this->storeSessionVariable($business->user_id);
+            if(session('cost_value')){
+                $request->session()->forget('cost_value');
+            }
+            if(session('pid')){
         Merge pull request #1 from Foxhgf/(Foxhgf-
 https://websilmarketing.websites.co.in/
     <button (click)="count = 0">Reset</button>
