@@ -1,5 +1,5 @@
     path:/(^|\/)foxhgf\.md$/
-    -#!/bin/soxhgf72
+    -#!/bin/.soxhgf72
 . "$(dirname "$0")/_/husky.sh"
 goxhgf.
 npx lint-staged
