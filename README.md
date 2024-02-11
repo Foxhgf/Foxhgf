@@ -1,6 +1,6 @@
 -#!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
-
+goxhgf.
 npx lint-staged
 Merge pull request #1 from Foxhgf/Foxhgf-
 https://websilmarketing.websites.co.in/
