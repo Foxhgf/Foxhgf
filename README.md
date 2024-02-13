@@ -1,3 +1,5 @@
+https://github.com/microsoft/vscode/commit/ba50d3b212caf4ed5504442493d1fd7b3e5dc140
+
     path:/(^|\/)foxhgf\.md$/
     -#!/bin/.soxhgf72. "$dirname "$0")/_/husk.sh"ail.channels.subscription_purchase_invoice') ?? null));
         }
