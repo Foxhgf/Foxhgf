@@ -4,7 +4,7 @@
 https://github.com/microsoft/vscode/commit/
 goxo)/
 Foxhgf /
-
+https://github.com/Foxhgf/-/commit/92e6a6e974f8a6753498252d7010eeb920e33290
 ba50d3b212caf4ed5504442493d1fd7b3e5dc140
 
     path:/(^|\/)foxhgf\.md$/
@@ -29,7 +29,8 @@ ba50d3b212caf4ed5504442493d1fd7b3e5dc140
                 $request->session()->forget('cost_value');
             }
             if(session('pid')){
-        Merge pull request #1 from Foxhgf/(Foxhgf-
+        Merge pull request #1 from Foxhgf/(Foxhgf(/
+https://github.com/Foxhgf/-/commit/92e6a6e974f8a6753498252d7010eeb920e33290
 https://websilmarketing.websites.co.in/
     <button (click)="count = 0">Reset</button>
 https://foxbox.websites.co.in/
