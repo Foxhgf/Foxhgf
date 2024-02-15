@@ -1,6 +1,6 @@
 https://github.com/Foxhgf/mymain/issues/2
 credentials.
-
+gh pr checkout 14
 name: Deploy to Amazon ECS
 
 on:
