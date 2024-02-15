@@ -1,6 +1,6 @@
 # This workflow will build and push a new container image to Amazon ECR,
 # and then will deploy a new task definition to Amazon ECS, when there is a push to the "main" branch.
-#
+#[![Deploy to Amazon ECS](https://github.com/Foxhgf/Foxhgf/actions/workflows/aws.yml/badge.svg?branch=OWNER%2FREPO%D8%A7%D9%83%D8%AA%D8%A8&event=watch)](https://github.com/Foxhgf/Foxhgf/actions/workflows/aws.yml)
 # To use this workflow, you will need to complete the following set-up steps:
 #
 # 1. Create an ECR repository to store your images.
