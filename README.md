@@ -1,6 +1,6 @@
 https://github.com/Foxhgf/mymain/issues/2
 credentials.
-
+gh pr checkout 14
 name: Deploy to Amazon ECS
 
 on:
@@ -13,7 +13,7 @@ env:
   ECS_SERVICE: MY_ECS_SERVICE                 # set this to your Amazon ECS service name
   ECS_CLUSTER: MY_ECS_CLUSTER                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: MY_ECS_TASK_DEFINITION # set this to the path to your Amazon ECS task definition
-                                               # file, e.g. .aws/task-definition.json
+             [![Deploy to Amazon ECS](https://github.com/Foxhgf/Foxhgf/actions/workflows/aws.yml/badge.svg?branch=OWNER%2FREPO%D8%A7%D9%83%D8%AA%D8%A8&event=watch)](https://github.com/Foxhgf/Foxhgf/actions/workflows/aws.yml)                                  # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: MY_CONTAINER_NAME           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 

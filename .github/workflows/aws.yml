@@ -1,6 +1,6 @@
 # This workflow will build and push a new container image to Amazon ECR,
 # and then will deploy a new task definition to Amazon ECS, when there is a push to the "main" branch.
-#
+#[![Deploy to Amazon ECS](https://github.com/Foxhgf/Foxhgf/actions/workflows/aws.yml/badge.svg?branch=OWNER%2FREPO%D8%A7%D9%83%D8%AA%D8%A8&event=watch)](https://github.com/Foxhgf/Foxhgf/actions/workflows/aws.yml)
 # To use this workflow, you will need to complete the following set-up steps:
 #
 # 1. Create an ECR repository to store your images.
@@ -92,3 +92,109 @@ jobs:
         service: ${{ env.ECS_SERVICE }}
         cluster: ${{ env.ECS_CLUSTER }}
         wait-for-service-stability: true
+2024-02-14T20:50:34.3331939Z Requested labels: ubuntu-latest
+2024-02-14T20:50:34.3332211Z Job defined at: Foxhgf/Foxhgf/.github/workflows/aws.yml@refs/heads/main
+2024-02-14T20:50:34.3332302Z Waiting for a runner to pick up this job...
+2024-02-14T20:50:34.5460211Z Job is waiting for a hosted runner to come online.
+2024-02-14T20:50:37.9610000Z Job is about to start running on the hosted runner: GitHub Actions 31 (hosted)
+2024-02-14T20:50:39.7317373Z ##[debug]Starting: Deploy
+2024-02-14T20:50:39.7341500Z ##[debug]Cleaning runner temp folder: /home/runner/work/_temp
+2024-02-14T20:50:39.7579501Z ##[debug]Starting: Set up job
+2024-02-14T20:50:39.7580062Z Current runner version: '2.313.0'
+2024-02-14T20:50:39.7599623Z ##[group]Operating System
+2024-02-14T20:50:39.7600169Z Ubuntu
+2024-02-14T20:50:39.7600546Z 22.04.3
+2024-02-14T20:50:39.7600941Z LTS
+2024-02-14T20:50:39.7601262Z ##[endgroup]
+2024-02-14T20:50:39.7601607Z ##[group]Runner Image
+2024-02-14T20:50:39.7602103Z Image: ubuntu-22.04
+2024-02-14T20:50:39.7602501Z Version: 20240212.1.0
+2024-02-14T20:50:39.7603513Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20240212.1/images/ubuntu/Ubuntu2204-Readme.md
+2024-02-14T20:50:39.7604970Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20240212.1
+2024-02-14T20:50:39.7605844Z ##[endgroup]
+2024-02-14T20:50:39.7606244Z ##[group]Runner Image Provisioner
+2024-02-14T20:50:39.7606770Z 2.0.341.1
+2024-02-14T20:50:39.7607299Z ##[endgroup]
+2024-02-14T20:50:39.7608244Z ##[group]GITHUB_TOKEN Permissions
+2024-02-14T20:50:39.7609817Z Contents: read
+2024-02-14T20:50:39.7610360Z Metadata: read
+2024-02-14T20:50:39.7610761Z ##[endgroup]
+2024-02-14T20:50:39.7613737Z Secret source: Actions
+2024-02-14T20:50:39.7614640Z ##[debug]Primary repository: Foxhgf/Foxhgf
+2024-02-14T20:50:39.7615253Z Prepare workflow directory
+2024-02-14T20:50:39.7677384Z ##[debug]Creating pipeline directory: '/home/runner/work/Foxhgf'
+2024-02-14T20:50:39.7680472Z ##[debug]Creating workspace directory: '/home/runner/work/Foxhgf/Foxhgf'
+2024-02-14T20:50:39.7682109Z ##[debug]Update context data
+2024-02-14T20:50:39.7685612Z ##[debug]Evaluating job-level environment variables
+2024-02-14T20:50:39.8257919Z ##[debug]Evaluating job container
+2024-02-14T20:50:39.8260968Z ##[debug]Evaluating job service containers
+2024-02-14T20:50:39.8263363Z ##[debug]Evaluating job defaults
+2024-02-14T20:50:39.8331443Z Prepare all required actions
+2024-02-14T20:50:39.8489079Z Getting action download info
+2024-02-14T20:50:40.0860237Z Download action repository 'actions/checkout@v3' (SHA:f43a0e5ff2bd294095638e18286ca9a3d1956744)
+2024-02-14T20:50:40.0894579Z ##[debug]Copied action archive '/opt/actionarchivecache/actions_checkout/f43a0e5ff2bd294095638e18286ca9a3d1956744.tar.gz' to '/home/runner/work/_actions/_temp_a80012ea-d258-4c09-b09a-de9ba35fb1b0/45dc8a4a-343e-4d7b-aa79-c8018ae831c7.tar.gz'
+2024-02-14T20:50:40.1867174Z ##[debug]Unwrap 'actions-checkout-f43a0e5' to '/home/runner/work/_actions/actions/checkout/v3'
+2024-02-14T20:50:40.2030148Z ##[debug]Archive '/home/runner/work/_actions/_temp_a80012ea-d258-4c09-b09a-de9ba35fb1b0/45dc8a4a-343e-4d7b-aa79-c8018ae831c7.tar.gz' has been unzipped into '/home/runner/work/_actions/actions/checkout/v3'.
+2024-02-14T20:50:40.2160971Z Download action repository 'aws-actions/configure-aws-credentials@v1' (SHA:67fbcbb121271f7775d2e7715933280b06314838)
+2024-02-14T20:50:40.4003131Z ##[debug]Download 'https://api.github.com/repos/aws-actions/configure-aws-credentials/tarball/67fbcbb121271f7775d2e7715933280b06314838' to '/home/runner/work/_actions/_temp_7aa52be0-5187-4d0a-b880-dac8dbd50db6/b571dcaa-e55b-4986-8b98-f40fc6e09c0d.tar.gz'
+2024-02-14T20:50:40.4470780Z ##[debug]Unwrap 'aws-actions-configure-aws-credentials-67fbcbb' to '/home/runner/work/_actions/aws-actions/configure-aws-credentials/v1'
+2024-02-14T20:50:40.4595871Z ##[debug]Archive '/home/runner/work/_actions/_temp_7aa52be0-5187-4d0a-b880-dac8dbd50db6/b571dcaa-e55b-4986-8b98-f40fc6e09c0d.tar.gz' has been unzipped into '/home/runner/work/_actions/aws-actions/configure-aws-credentials/v1'.
+2024-02-14T20:50:40.4627620Z Download action repository 'aws-actions/amazon-ecr-login@v1' (SHA:2fc7aceee09e9e4a7105c0d060c656fad0b4f63d)
+2024-02-14T20:50:40.6191508Z ##[debug]Download 'https://api.github.com/repos/aws-actions/amazon-ecr-login/tarball/2fc7aceee09e9e4a7105c0d060c656fad0b4f63d' to '/home/runner/work/_actions/_temp_9a88f74e-8141-4db2-9c28-2864b83d5848/044ae82a-b1c2-4806-9180-553ad4e024de.tar.gz'
+2024-02-14T20:50:40.6570018Z ##[debug]Unwrap 'aws-actions-amazon-ecr-login-2fc7ace' to '/home/runner/work/_actions/aws-actions/amazon-ecr-login/v1'
+2024-02-14T20:50:40.6631675Z ##[debug]Archive '/home/runner/work/_actions/_temp_9a88f74e-8141-4db2-9c28-2864b83d5848/044ae82a-b1c2-4806-9180-553ad4e024de.tar.gz' has been unzipped into '/home/runner/work/_actions/aws-actions/amazon-ecr-login/v1'.
+2024-02-14T20:50:40.6652963Z Download action repository 'aws-actions/amazon-ecs-render-task-definition@v1' (SHA:4225e0b507142a2e432b018bc3ccb728559b437a)
+2024-02-14T20:50:40.8094611Z ##[debug]Download 'https://api.github.com/repos/aws-actions/amazon-ecs-render-task-definition/tarball/4225e0b507142a2e432b018bc3ccb728559b437a' to '/home/runner/work/_actions/_temp_afff19b5-0b0f-40b5-a5e8-c39b5ea7a9fd/9c8f2d3f-e658-4df7-b1d0-127edd6d57b8.tar.gz'
+2024-02-14T20:50:40.8292353Z ##[debug]Unwrap 'aws-actions-amazon-ecs-render-task-definition-4225e0b' to '/home/runner/work/_actions/aws-actions/amazon-ecs-render-task-definition/v1'
+2024-02-14T20:50:40.8340901Z ##[debug]Archive '/home/runner/work/_actions/_temp_afff19b5-0b0f-40b5-a5e8-c39b5ea7a9fd/9c8f2d3f-e658-4df7-b1d0-127edd6d57b8.tar.gz' has been unzipped into '/home/runner/work/_actions/aws-actions/amazon-ecs-render-task-definition/v1'.
+2024-02-14T20:50:40.8361622Z Download action repository 'aws-actions/amazon-ecs-deploy-task-definition@v1' (SHA:df9643053eda01f169e64a0e60233aacca83799a)
+2024-02-14T20:50:41.0097497Z ##[debug]Download 'https://api.github.com/repos/aws-actions/amazon-ecs-deploy-task-definition/tarball/df9643053eda01f169e64a0e60233aacca83799a' to '/home/runner/work/_actions/_temp_a5a88974-f9bc-498b-a71f-90193a3269b5/5b4933f3-a4c7-44cf-8c88-a6fd56cd7930.tar.gz'
+2024-02-14T20:50:41.0612813Z ##[debug]Unwrap 'aws-actions-amazon-ecs-deploy-task-definition-df96430' to '/home/runner/work/_actions/aws-actions/amazon-ecs-deploy-task-definition/v1'
+2024-02-14T20:50:41.0750299Z ##[debug]Archive '/home/runner/work/_actions/_temp_a5a88974-f9bc-498b-a71f-90193a3269b5/5b4933f3-a4c7-44cf-8c88-a6fd56cd7930.tar.gz' has been unzipped into '/home/runner/work/_actions/aws-actions/amazon-ecs-deploy-task-definition/v1'.
+2024-02-14T20:50:41.0826300Z ##[debug]action.yml for action: '/home/runner/work/_actions/actions/checkout/v3/action.yml'.
+2024-02-14T20:50:41.1592972Z ##[debug]action.yml for action: '/home/runner/work/_actions/aws-actions/configure-aws-credentials/v1/action.yml'.
+2024-02-14T20:50:41.1632427Z ##[debug]action.yml for action: '/home/runner/work/_actions/aws-actions/amazon-ecr-login/v1/action.yml'.
+2024-02-14T20:50:41.1661403Z ##[debug]action.yml for action: '/home/runner/work/_actions/aws-actions/amazon-ecs-render-task-definition/v1/action.yml'.
+2024-02-14T20:50:41.1692166Z ##[debug]action.yml for action: '/home/runner/work/_actions/aws-actions/amazon-ecs-deploy-task-definition/v1/action.yml'.
+2024-02-14T20:50:41.1785214Z ##[debug]Set step '__actions_checkout' display name to: 'Checkout'
+2024-02-14T20:50:41.1787445Z ##[debug]Set step '__aws-actions_configure-aws-credentials' display name to: 'Configure AWS credentials'
+2024-02-14T20:50:41.1789298Z ##[debug]Set step 'login-ecr' display name to: 'Login to Amazon ECR'
+2024-02-14T20:50:41.1791050Z ##[debug]Set step 'build-image' display name to: 'Build, tag, and push image to Amazon ECR'
+2024-02-14T20:50:41.1793000Z ##[debug]Set step 'task-def' display name to: 'Fill in the new image ID in the Amazon ECS task definition'
+2024-02-14T20:50:41.1794933Z ##[debug]Set step '__aws-actions_amazon-ecs-deploy-task-definition' display name to: 'Deploy Amazon ECS task definition'
+2024-02-14T20:50:41.1796158Z Complete job name: Deploy
+2024-02-14T20:50:41.1819774Z ##[debug]Collect running processes for tracking orphan processes.
+2024-02-14T20:50:41.2048541Z ##[debug]Finishing: Set up job
+2024-02-14T20:50:41.2244496Z ##[debug]Evaluating condition for step: 'Checkout'
+2024-02-14T20:50:41.2290117Z ##[debug]Evaluating: success()
+2024-02-14T20:50:41.2295898Z ##[debug]Evaluating success:
+2024-02-14T20:50:41.2318832Z ##[debug]=> true
+2024-02-14T20:50:41.2325569Z ##[debug]Result: true
+2024-02-14T20:50:41.2359085Z ##[debug]Starting: Checkout
+2024-02-14T20:50:41.2463128Z ##[debug]Register post job cleanup for action: actions/checkout@v3
+2024-02-14T20:50:41.2557656Z ##[debug]Loading inputs
+2024-02-14T20:50:41.2565584Z ##[debug]Evaluating: github.repository
+2024-02-14T20:50:41.2566769Z ##[debug]Evaluating Index:
+2024-02-14T20:50:41.2568704Z ##[debug]..Evaluating github:
+2024-02-14T20:50:41.2569973Z ##[debug]..=> Object
+2024-02-14T20:50:41.2582029Z ##[debug]..Evaluating String:
+2024-02-14T20:50:41.2583051Z ##[debug]..=> 'repository'
+2024-02-14T20:50:41.2586852Z ##[debug]=> 'Foxhgf/Foxhgf'
+2024-02-14T20:50:41.2588373Z ##[debug]Result: 'Foxhgf/Foxhgf'
+2024-02-14T20:50:41.2591165Z ##[debug]Evaluating: github.token
+2024-02-14T20:50:41.2591607Z ##[debug]Evaluating Index:
+2024-02-14T20:50:41.2592085Z ##[debug]..Evaluating github:
+2024-02-14T20:50:41.2592511Z ##[debug]..=> Object
+2024-02-14T20:50:41.2592842Z ##[debug]..Evaluating String:
+2024-02-14T20:50:41.2593294Z ##[debug]..=> 'token'
+2024-02-14T20:50:41.2594479Z ##[debug]=> '***'
+2024-02-14T20:50:41.2595076Z ##[debug]Result: '***'
+2024-02-14T20:50:41.2607039Z ##[debug]Loading env
+2024-02-14T20:50:41.2692298Z ##[group]Run actions/checkout@v3
+2024-02-14T20:50:41.2692689Z with:
+2024-02-14T20:50:41.2693033Z   repository: Foxhgf/Foxhgf
+2024-02-14T20:50:41.2693653Z   token: ***
+2024-02-14T20:50:41.2694011Z   ssh-strict: true
+2024-02-14T20:50:41.2694503Z   persist-credentials: true
+2024-02-14T20:50:41.2694955Z   clean: true
+2024-02-14T20:50:41.2695275Z   sparse-checkout-cone-mode: true
