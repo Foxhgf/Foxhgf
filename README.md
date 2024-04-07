@@ -1,4 +1,12 @@
-
+ 
+machine:
+      image: default
+resource_class: 'windows.medium' 
+machine:
+       windows-server-2022-gui:previous
+resource_class: 'windows.medium' 
+machine:
+      image: windows-server-2022-gui:edge
 
 
 https://github.com/microsoft/vscode/commit/
