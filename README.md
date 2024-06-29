@@ -1,4 +1,4 @@
-e
+e#providingassuredidentity
 
 https://github.com/microsoft/vscode/commit/ goxo)/ Foxhgf /https://github.com/Foxhgf/-/commit/92e6a6e974f8a6753498252d7010eeb920e33290ba50d3b212caf4ed550442493d1fd7b3e5dc140
 
