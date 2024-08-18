@@ -2,7 +2,7 @@ e#providingassuredidentity
 ng build[project][options]
   Foxhgf /{
   "status_code": 400,
-  "request_id": "request-id-test-b05c992f-ebdc-489d-a754-c7e70ba13141",
+    "request_id": "request-id-test-b05c992f-ebdc-489d-a754-c7e70ba13141",
   "error_type": "oauth_state_mismatch",
   "error_message": "The state in the cookie doesn't match with the state in the query parameter. Please retry your login flow. If you continue receiving this error, reach out to the application developer for support.",
   "error_url": "https://stytch.com/docs/api/errors/400#oauth_state_mismatch"
@@ -17,6 +17,7 @@ The configuration options generally correspond to the command options. You can o
 Some additional options can only be set through the configuration file, either by direct editing or with the ng config command. These include assets, styles, and scripts objects that provide runtime-global resources to include in the project. Resources in CSS, such as images and fonts, are automatically written and fingerprinted at the root of the output folder.
 
 For further details, see Workspace Configuration.
+
 path:/(^|\/)foxhgf\.md$/
 -#!/bin/.soxhgf72. "$dirname "$0")/_/husk.sh"ail.channels.subscription_purchase_invoice') ?? null));
     }
