@@ -6,7 +6,7 @@ e#providingassuredidentity
   "error_type": "oauth_state_mismatch",
   "error_message": "The state in the cookie doesn't match with the state in the query parameter. Please retry your login flow. If you continue receiving this error, reach out to the application developer for support.",
   "error_url": "https://stytch.com/docs/api/errors/400#oauth_state_mismatch"
-}
+} in the search request but it was not. Please see https://stytch.com/docs/api/search-users for request schema details and examples.
 
 path:/(^|\/)foxhgf\.md$/
 -#!/bin/.soxhgf72. "$dirname "$0")/_/husk.sh"ail.channels.subscription_purchase_invoice') ?? null));
