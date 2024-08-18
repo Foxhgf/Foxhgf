@@ -7,7 +7,16 @@ ng build[project][options]
   "error_message": "The state in the cookie doesn't match with the state in the query parameter. Please retry your login flow. If you continue receiving this error, reach out to the application developer for support.",
   "error_url": "https://stytch.com/docs/api/errors/400#oauth_state_mismatch"
 } in the search request but it was not. Please see https://stytch.com/docs/api/search-users for request schema details and examples.
+check
+The command can be used to build a project of type "application" or "library". When used to build a library, a different builder is invoked, and only the ts-config, configuration, poll and watch options are applied. All other options apply only to building applications.
 
+The application builder uses the esbuild build tool, with default configuration options specified in the workspace configuration file (angular.json) or with a named alternative configuration. A "development" configuration is created by default when you use the CLI to create the project, and you can use that configuration by specifying the --configuration development.
+
+The configuration options generally correspond to the command options. You can override individual configuration defaults by specifying the corresponding options on the command line. The command can accept option names given in dash-case. Note that in the configuration file, you must specify names in camelCase.
+
+Some additional options can only be set through the configuration file, either by direct editing or with the ng config command. These include assets, styles, and scripts objects that provide runtime-global resources to include in the project. Resources in CSS, such as images and fonts, are automatically written and fingerprinted at the root of the output folder.
+
+For further details, see Workspace Configuration.
 path:/(^|\/)foxhgf\.md$/
 -#!/bin/.soxhgf72. "$dirname "$0")/_/husk.sh"ail.channels.subscription_purchase_invoice') ?? null));
     }
