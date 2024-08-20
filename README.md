@@ -9,7 +9,31 @@ ng build[project][options]
 } in the search request but it was not. Please see https://stytch.com/docs/api/search-users for request schema details and examples.
 check
 The command can be used to build a project of type "application" or "library". When used to build a library, a different builder is invoked, and only the ts-config, configuration, poll and watch options are applied. All other options apply only to building applications.
+MetaMask Help Center Content
 
+The MetaMask Help Center lives at https://www.support.metamask.io.
+
+The code for the site is private, but this repository exists to allow anyone to contribute, correct, or suggest changes to the content, or the functionality of the site as a whole. Changes to this repository will be routinely reviewed and synced with the live site content.
+
+How to contribute
+
+See something missing? Is there an error in an article, a broken link? Is something really frustrating about the site? We love this feedback!
+
+To report something, create an issue here.
+
+Alternatively, help us improve our documentation! Fork our repo, create a pull request, and tag us for review! (for help on this, see below)
+
+How to submit a suggestion or change
+
+The best way to suggest a change to these docs is through a process known as a pull request. If you're not familiar with how that works, check out GitHub's guide here.
+
+If that process is too involved for you, you can always open a thread on the MetaMask Community page.
+
+Resources
+
+For help on formatting your submission correctly, check out these guidelines:
+
+Format your Markdown correctly
 The application builder uses the esbuild build tool, with default configuration options specified in the workspace configuration file (angular.json) or with a named alternative configuration. A "development" configuration is created by default when you use the CLI to create the project, and you can use that configuration by specifying the --configuration development.
 
 The configuration options generally correspond to the command options. You can override individual configuration defaults by specifying the corresponding options on the command line. The command can accept option names given in dash-case. Note that in the configuration file, you must specify names in camelCase.
