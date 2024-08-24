@@ -1,4 +1,176 @@
 e#providingassuredidentity
+
+
+
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Feed for GitHub Topics and Collections." />
+<meta property="og:description" content="Feed for GitHub Topics and Collections." />
+<link rel="canonical" href="https://github.com/pages/github/explore/docs/API.html" />
+<meta property="og:url" content="https://github.com/pages/github/explore/docs/API.html" />
+<link rel="canonical" href="https://explore-feed.github.com/docs/API.html" />
+<meta property="og:url" content="https://explore-feed.github.com/docs/API.html" />
+<meta property="og:site_name" content="GitHub Explore Feed" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Making edits to a topic" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Feed for GitHub Topics and Collections.","headline":"Making edits to a topic","url":"https://github.com/pages/github/explore/docs/API.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Feed for GitHub Topics and Collections.","headline":"Making edits to a topic","url":"https://explore-feed.github.com/docs/API.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/pages/github/explore/assets/css/style.css?v=1101154aff19156176afcb7153ec86b042df8cbe">
+    <link rel="stylesheet" href="/assets/css/style.css?v=581cc1144f8558f0cecdf7f92ecc01863a3780de">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/pages/github/explore/favicon.ico" -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+
+      <h1><a href="https://github.com/pages/github/explore/">GitHub Explore Feed</a></h1>
+      <h1><a href="https://explore-feed.github.com/">GitHub Explore Feed</a></h1>
+
+
+      <h2 id="making-edits-to-a-topic">Making edits to a topic</h2>
+   12 changes: 6 additions & 6 deletions 12  
+docs/styleguide.html
+ 
+Original file line number	Diff line number	Diff line change
+@@ -12,33 +12,33 @@
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Feed for GitHub Topics and Collections." />
+<meta property="og:description" content="Feed for GitHub Topics and Collections." />
+<link rel="canonical" href="https://github.com/pages/github/explore/docs/styleguide.html" />
+<meta property="og:url" content="https://github.com/pages/github/explore/docs/styleguide.html" />
+<link rel="canonical" href="https://explore-feed.github.com/docs/styleguide.html" />
+<meta property="og:url" content="https://explore-feed.github.com/docs/styleguide.html" />
+<meta property="og:site_name" content="GitHub Explore Feed" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Topic Page Style Guide" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Feed for GitHub Topics and Collections.","headline":"Topic Page Style Guide","url":"https://github.com/pages/github/explore/docs/styleguide.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Feed for GitHub Topics and Collections.","headline":"Topic Page Style Guide","url":"https://explore-feed.github.com/docs/styleguide.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/pages/github/explore/assets/css/style.css?v=1101154aff19156176afcb7153ec86b042df8cbe">
+    <link rel="stylesheet" href="/assets/css/style.css?v=581cc1144f8558f0cecdf7f92ecc01863a3780de">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/pages/github/explore/favicon.ico" -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+
+      <h1><a href="https://github.com/pages/github/explore/">GitHub Explore Feed</a></h1>
+      <h1><a href="https://explore-feed.github.com/">GitHub Explore Feed</a></h1>
+
+
+      <h1 id="topic-page-style-guide">Topic Page Style Guide</h1>
+  2,806 changes: 1,403 additions & 1,403 deletions 2,806  
+feed.json
+ 
+Large diffs are not rendered by default.
+
+   8 changes: 4 additions & 4 deletions 8  
+index.html
+ 
+Original file line number	Diff line number	Diff line change
+@@ -2,10 +2,10 @@
+<html lang="en-US">
+  <meta charset="utf-8">
+  <title>Redirecting&hellip;</title>
+  <link rel="canonical" href="https://github.com/pages/github/explore/feed.json">
+  <script>location="https://github.com/pages/github/explore/feed.json"</script>
+  <meta http-equiv="refresh" content="0; url=https://github.com/pages/github/explore/feed.json">
+  <link rel="canonical" href="https://explore-feed.github.com/feed.json">
+  <script>location="https://explore-feed.github.com/feed.json"</script>
+  <meta http-equiv="refresh" content="0; url=https://explore-feed.github.com/feed.json">
+  <meta name="robots" content="noindex">
+  <h1>Redirecting&hellip;</h1>
+  <a href="https://github.com/pages/github/explore/feed.json">Click here if you are not redirected.</a>
+  <a href="https://explore-feed.github.com/feed.json">Click here if you are not redirected.</a>
+</html>
+   12 changes: 6 additions & 6 deletions 12  
+notices.html
+ 
+Original file line number	Diff line number	Diff line change
+@@ -12,33 +12,33 @@
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Feed for GitHub Topics and Collections." />
+<meta property="og:description" content="Feed for GitHub Topics and Collections." />
+<link rel="canonical" href="https://github.com/pages/github/explore/notices.html" />
+<meta property="og:url" content="https://github.com/pages/github/explore/notices.html" />
+<link rel="canonical" href="https://explore-feed.github.com/notices.html" />
+<meta property="og:url" content="https://explore-feed.github.com/notices.html" />
+<meta property="og:site_name" content="GitHub Explore Feed" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Licenses" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Feed for GitHub Topics and Collections.","headline":"Licenses","url":"https://github.com/pages/github/explore/notices.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Feed for GitHub Topics and Collections.","headline":"Licenses","url":"https://explore-feed.github.com/notices.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/pages/github/explore/assets/css/style.css?v=1101154aff19156176afcb7153ec86b042df8cbe">
+    <link rel="stylesheet" href="/assets/css/style.css?v=581cc1144f8558f0cecdf7f92ecc01863a3780de">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/pages/github/explore/favicon.ico" -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+
+      <h1><a href="https://github.com/pages/github/explore/">GitHub Explore Feed</a></h1>
+      <h1><a href="https://explore-feed.github.com/">GitHub Explore Feed</a></h1>
+
+
+      <h2 id="licenses">Licenses</h2>
+  2 changes: 1 addition & 1 deletion 2  
+redirects.json
+ 
+Original file line number	Diff line number	Diff line change
+@@ -1 +1 @@
+{"/":"https://github.com/pages/github/explore/feed.json"} 
+{"/":"https://explore-feed.github.com/feed.json"} 
+Footer
+© 2024 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact
+Manage cookies
+
 ng build[project][options]
   Foxhgf /{
   "status_code": 400,
