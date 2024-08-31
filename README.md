@@ -1,4 +1,5 @@
 e#
+npm i && npm start
 {
 Test-Pi
   "status_code": 400,
