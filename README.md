@@ -1,3 +1,18 @@
+يمكنك ربط طلب سحب بمشكلة ما باستخدام كلمة رئيسية مدعومة في وصف طلب السحب أو في رسالة تأكيد. يجب أن يكون طلب السحب على الفرع الافتراضي.
+
+close
+closes
+closed
+fix
+fixes
+fixed
+resolve
+resolves
+resolved
+
+
+
+
 APKTIDkS2BfmNilFH7AulNC1xDlW2dTgSRtZtDcEHiR0_9wPBCOQ
 e#
 npm i && npm start
