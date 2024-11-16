@@ -1,4 +1,6 @@
-{
+{  
+​
+
   "status_code": 400,
   "request_id": "request-id-test-b05c992f-ebdc-489d-a754-c7e70ba13141",
   "error_type": "oauth_state_mismatch",
