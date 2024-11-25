@@ -13,7 +13,7 @@ https://github.com/Foxhgf/Foxhgf/commit/fe7da2eb225a568435ce99fd1c43d723c5f8aa6c
   "error_type": "test_id_used_in_live_environment",
   "error_message": "Invalid argument sent to Li
 
-public function websiteMaintenanceMode(Request $request){
+  publicfunction websiteMaintenanceMode(Request $request){
     
     $website_id = Session::get('website_id'); 
 
