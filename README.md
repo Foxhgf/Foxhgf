@@ -36,5 +36,6 @@ fox<!-- Google Tag Manager (noscript) -->
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
+https://skillshop.docebosaas.com/learn/courses/8108/get-started-using-google-analytics-ga4?hash=b413a1c90e783f3e73006264cb62962de4a53276&generated_by=10631700
 
 
