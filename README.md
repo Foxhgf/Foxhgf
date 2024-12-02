@@ -31,7 +31,10 @@ https://github.com/Foxhgf/Foxhgf/commit/fe7da2eb225a568435ce99fd1c43d723c5f8aa6c
         if(session('pid')){
     Merge pull request #1 from Foxhgf/(Foxhgf(/
 https://github.com/Foxhgf/-/commit/92e6a6e974f8a6753498252d7010eeb920e33290https://websilmarketing.websites.co.in/<button (click)="count = 0">Resethttps://foxbox.websites.co.in/{"success":false,"errors":ull}
-fox
+fox<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5PKWH3W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 
 
